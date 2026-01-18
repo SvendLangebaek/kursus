@@ -1,5 +1,5 @@
-#Opgave:
-#Lav et command line opslagsværk, der kan give information om mad
+# Opgave:
+# Lav et command line opslagsværk, der kan give information om mad
 <br/><br/><br/>
 
 ## Delopgave 1
