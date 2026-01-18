@@ -24,8 +24,21 @@ dictionary - en dictionary er en "ordbogs" struktur<br/>
 x = {"a": 1, "b": 2}<br/>
 tænk på det som en liste hvor man i stedet tilgår elementerne med et navn f.eks. x["a"] = 3
 
+x = True
+eller
+x = False
+
 
 ## indbyggede metoder <br/>
+print()
+udskriver tekst, brug evt. formateret tekst med f.eks. f'a= {}'
+
+len()
+giver længden af visse typer, ofte brugt sammen med lister, tupler etc.
+
+help()
+viser hjælpetekst om den type, det er den samme tekst der kommer frem ved at holde musen over
+
 input("tekst: ")<br/>
 brug denne til at opfange en indtastning, teksten <br/> 
 
@@ -35,6 +48,12 @@ Er du i tvivl om hvilken type din variabel er, brug denne metode<br/>
 range()<br/>
 Denne metode giver en range, bruges ofte sammen med for<br/>
 
+## konverter mellem typer med følgende
+x = str(123)
+x = int('10')
+x = float('10.5')
+x = list((1, 2, 3))
+x = dict(a=1, b=2)
 
 ## kontrol strukturer
 if<br/>
