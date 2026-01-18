@@ -1,3 +1,4 @@
+## https://github.com/SvendLangebaek/kursus/blob/main/python_opgave_mad.md
 # Opgave:
 # Lav et command line opslagsværk, der kan give information om mad
 <br/><br/><br/>
