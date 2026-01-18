@@ -30,14 +30,17 @@ x = False<br/>
 
 
 ## indbyggede metoder <br/>
-print()
-udskriver tekst, brug evt. formateret tekst med f.eks. f'a= {}'
+import<br/>
+bruges til at hente kode fra en anden fil eller modul. Bruges ofte i toppen af en fil<br/>
 
-len()
-giver længden af visse typer, ofte brugt sammen med lister, tupler etc.
+print()<br/>
+udskriver tekst, brug evt. formateret tekst med f.eks. f'a= {}'<br/>
 
-help()
-viser hjælpetekst om den type, det er den samme tekst der kommer frem ved at holde musen over
+len()<br/>
+giver længden af visse typer, ofte brugt sammen med lister, tupler etc.<br/>
+
+help()<br/>
+viser hjælpetekst om den type, det er den samme tekst der kommer frem ved at holde musen over<br/>
 
 input("tekst: ")<br/>
 brug denne til at opfange en indtastning, teksten <br/> 
