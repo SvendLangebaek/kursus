@@ -76,3 +76,10 @@ brug denne til at stoppe en løkke før den ellers ville stoppe, bruges ofte i f
 
 continue<br/>
 hopper til toppen af løkken, vent evt. med denne<br/>
+
+## Definition af klasser og metoder
+def method_name:<br/>
+bruges til at definere en metode<br/>
+
+class class_name:<br/>
+bruges til at lave en klasse<br/>
