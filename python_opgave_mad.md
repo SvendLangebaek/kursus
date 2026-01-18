@@ -68,7 +68,21 @@ Flyt en del af programmet over i an anden fil tænk over den struktur du gerne v
 
 ## Hints 6
 Python filer kan importeres på samme måde som installerede pakker<br/>
-Bemærk at stien er relativ og adskilles med "." og ikke med "/"
+Bemærk at stien starter i samme mappe som det python program du starter og adskilles med "." og ikke med "/"
 I særlige tilfælde som f.eks. plugins bruger man relative stier, de starter med .
+
+## Delopgave 7
+Organiser din kode i en eller flere klasser
+
+## Hints 7
+Typisk har en fil kun en klasse, dette er ikke et krav, og afhænger af den struktur du gerne vil bruge<br/>
+En klass oprettes med<br/>
+<pre><code>class class_name:<br/>&emsp;def __init__(self):
+&emsp;&emsp;print('initialize')
+</code></pre><br/>
+Klassen kan bruges på samme måde som de indbyggede klasser, et object laves med<br/>
+<code>var_name = class_name()</code><br/>
+variablen <code>self</code> referere til det object der er blevet lavet<br/>
+Efterfølgende metoder der oprettes i klassen har alle argumentet self, det kan man bruge til at arbejde med metoder og variable<br/>
 
 
