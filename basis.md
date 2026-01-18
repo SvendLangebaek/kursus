@@ -28,11 +28,11 @@ x = True<br/>
 eller<br/>
 x = False<br/>
 
-
-## indbyggede metoder <br/>
+## import
 import<br/>
 bruges til at hente kode fra en anden fil eller modul. Bruges ofte i toppen af en fil<br/>
 
+## indbyggede metoder <br/>
 print()<br/>
 udskriver tekst, brug evt. formateret tekst med f.eks. f'a= {}'<br/>
 
