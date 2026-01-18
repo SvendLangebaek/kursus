@@ -45,11 +45,11 @@ Importer de pakker vi lige har installeret
 <br/>
 <code>from polars import read_excel, col</code>
 <br/><code>read_excel(**navn**, sheet_id=**id**) </code><br/><br/>
-Den simpleste vej er at bruge <code> .iter_rows(named=True) </code><br/>
-på den frame man får tilbage<br/>
-På den måde ser vi data som en dict (en dict I python er en dictionary) i stedet for en frame
+Den simpleste måde at tilgå data er at bruge <code> .iter_rows(named=True) </code><br/>
+på det objekt man får tilbage fra metoden read_excel<br/>
+På den måde ser vi data som en dict (en dict I python er en dictionary)
 <br/><br/>
-<pre><code>for row in **frame**.iter_rows(named=True):
+<pre><code>for row in object_name.iter_rows(named=True):
 &emsp;print(row)<br/>&emsp;break</code>
 </pre><br/>
 <br/>bemærk at <code>break</code> kommandoen afbryder iterationen efter første gennemløb
