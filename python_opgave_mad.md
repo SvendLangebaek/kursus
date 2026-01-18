@@ -29,7 +29,7 @@ For at vi kan arbejde med data skal de hentes ind i python<br/>
 her skal vi bruge nogle pakker fra pypi
 Det er en god ide at checke om python fortolkeren er sat rigtigt op.<br/>
 ## Hints 3
-Open indstillinger med ctrl-alt-s og se under interpreter.<br/>
+Open indstillinger med ctrl-alt-s og se under python->interpreter.<br/>
 Der kan der også installeres pakker<br/>
 pakkerne polars og fastexcel kan bruges her<br/>
 Ønsker man en manuel installation kan man i uv installere en pakke med<br/>
