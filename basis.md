@@ -1,4 +1,4 @@
-## https://github.com/SvendLangebaek/kursus/blob/main/basis_tr%C3%A6ning.md
+## https://github.com/SvendLangebaek/kursus/blob/main/basis.md
 ## Grundlæggende variable typer
 
 heltal<br/>
