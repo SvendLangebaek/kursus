@@ -10,7 +10,7 @@ prøv i første omgang bare at skrive det ud
 
 ## Hints 1
 Hent metoder ind via import <br/>
-python har en del forskellige metoder i forskellige module<br/>
+python har en del forskellige metoder i forskellige moduler<br/>
 Et modul hentes med kommandoen <br/>
 <code> import </code><br/> f.eks.<br/>
 <code> from sys import argv </code><br/>
