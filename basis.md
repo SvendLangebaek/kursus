@@ -24,9 +24,9 @@ dictionary - en dictionary er en "ordbogs" struktur<br/>
 x = {"a": 1, "b": 2}<br/>
 tænk på det som en liste hvor man i stedet tilgår elementerne med et navn f.eks. x["a"] = 3
 
-x = True
-eller
-x = False
+x = True<br/>
+eller<br/>
+x = False<br/>
 
 
 ## indbyggede metoder <br/>
@@ -49,11 +49,11 @@ range()<br/>
 Denne metode giver en range, bruges ofte sammen med for<br/>
 
 ## konverter mellem typer med følgende
-x = str(123)
-x = int('10')
-x = float('10.5')
-x = list((1, 2, 3))
-x = dict(a=1, b=2)
+x = str(123)<br/>
+x = int('10')<br/>
+x = float('10.5')<br/>
+x = list((1, 2, 3))<br/>
+x = dict(a=1, b=2)<br/>
 
 ## kontrol strukturer
 if<br/>
