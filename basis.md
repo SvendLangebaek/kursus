@@ -51,6 +51,15 @@ Er du i tvivl om hvilken type din variabel er, brug denne metode<br/>
 range()<br/>
 Denne metode giver en range, bruges ofte sammen med for<br/>
 
+## metoder på indbyggede klasser
+### string
+
+Formatering af string kan gøres med
+format()
+
+Hvor argumenterne indsættes i strengens placeholders. Samme format bruges til f'string'<br/>
+Der er mange forskellige formaterings muligheder, se evt. [https://www.w3schools.com/python/ref_string_format.asp](https://www.w3schools.com/python/ref_string_format.asp)
+
 ## konverter mellem typer med følgende
 x = str(123)<br/>
 x = int('10')<br/>
