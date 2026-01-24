@@ -60,8 +60,14 @@ Som input skal man kunne vælge at gemme output som en json fil
 Importer det indbyggede modul **json**<br/>
 ## Hints 5
 Brug <code>json.dumps(**name**)</code> til at omdanne fra en dict til json format<br/>
-Herefter kan filen skrives med<pre><code>with open('/path/to/file.json', 'w') as **file**:
-&emsp;file.write(**json_formatted_string**)</code></pre>
+Herefter kan filen skrives med
+
+	with open('/path/to/file.json', 'w') as file:
+		file.write(json_formatted_string)
+
+Har du behov for at slette et element for at kunne konvertere, kan det gøres med
+
+	del dict_variable['navn']
 
 ## Delopgave 6
 Flyt en del af programmet over i an anden fil tænk over den struktur du gerne vil have i dit program
