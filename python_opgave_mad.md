@@ -91,4 +91,21 @@ Klassen kan bruges på samme måde som de indbyggede klasser, et object laves me
 variablen <code>self</code> referere til det object der er blevet lavet<br/>
 Efterfølgende metoder der oprettes i klassen har alle argumentet self, det kan man bruge til at arbejde med metoder og variable<br/>
 
+## Delopgave 8
+Definer dit eget output format
 
+## Hints 8
+Et format kan defineres som en string hvor de ting der skal byttes ud markeres med {navn}
+f.eks.
+
+	template = 'en ting {navn1} - {navn2}'
+	filled_template = template.format(navn1=1, navn2=2)
+
+En string kan strække sig over flere linjer ved at bruge '''
+F.eks.
+
+	template = '''
+		tekst der skal vises
+	'''
+
+Escape { med dobbelt {{
