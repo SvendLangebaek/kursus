@@ -1,4 +1,4 @@
-## Git er det værktøj vi bruger til at organisere vores arbejde i teams
+## Git er et versions-styrings værktøj vi bruger til at organisere vores arbejde. Når vi arbejder i teams er det nødvendigt at kunne arbejde parallelt
 ## Hvis du ikke allerede har git installeret så download og installer git fra https://git-scm.com/
 ## Check lige i settings at pycharm har fundet git correct, ellers prøv genstart. Hvis den ikke finder git så sæt stien manuelt
 
