@@ -7,6 +7,11 @@ def hent_tabel():
 	return read_excel("Frida.xlsx", sheet_id=3)
 
 def tabel_til_liste(tabel) -> List[dict]:
+	"""
+	laver en tabel om til en liste
+	:param tabel: den tabel der skal laves om
+	:return: en liste af dict
+	"""
 	result = []
 	for row in tabel.iter_rows(named=True):
 		result.append(row)
