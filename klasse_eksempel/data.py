@@ -24,9 +24,12 @@ def filtrer_dict_paa_navn(food_dict: dict, query: str):
 	for key in doomed_keys:
 		del food_dict[key]
 
+def dict_til_json(liste):
+	class JsonEncoder(json.JSONEncoder):
+		def default(self, obj):
+			return obj.to_dict()
 
-def liste_til_json(liste):
-	return json.dumps(liste)
+	return json.dumps(liste, cls=JsonEncoder)
 
 def liste_til_eget_format(liste: List[dict]):
 	indre_skabelon = '''
