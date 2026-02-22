@@ -12,6 +12,20 @@ class Foedevare:
 	def tilfoej_parameter(self, foedevare):
 		self._parameters[foedevare['FødevareNavn']] = FoedevareParameter.fra_dict(foedevare)
 
+	def to_dict(self):
+		return {
+			'ID': self.ID,
+			'Navn': self.Navn,
+			'Name': self.Name,
+			'Parameters': self._parameters_to_dict(),
+		}
+
+	def _parameters_to_dict(self):
+		parameters = []
+		for parameter_key in self._parameters:
+			parameters.append(self._parameters[parameter_key].to_dict())
+		return parameters
+
 	def __repr__(self):
 		indre = ''
 		for ID in self._parameters:
