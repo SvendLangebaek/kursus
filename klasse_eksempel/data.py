@@ -24,12 +24,6 @@ def filtrer_dict_paa_navn(food_dict: dict, query: str):
 	for key in doomed_keys:
 		del food_dict[key]
 
-def filtrer_liste_paa_parameter_id(liste: List[dict], parameter_id: int) -> List[dict]:
-	result = []
-	for row in liste:
-		if parameter_id == row['ParameterID']:
-			result.append(row)
-	return result
 
 def liste_til_json(liste):
 	return json.dumps(liste)
