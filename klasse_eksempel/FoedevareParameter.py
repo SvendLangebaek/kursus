@@ -16,5 +16,14 @@ class FoedevareParameter:
 			res_max=foedevare['Max'],
 		)
 
+	def to_dict(self):
+		return {
+			'ParameterNavn': self.navn,
+			'ParameterName': self.name,
+			'ResVal': self.res_val,
+			'Min': self.res_min,
+			'Max': self.res_max,
+		}
+
 	def __repr__(self):
 		return f'\n\t\t{self.navn} | {self.name} = {self.res_val}'
