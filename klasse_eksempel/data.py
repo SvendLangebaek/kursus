@@ -1,17 +1,10 @@
 from polars import read_excel
 import json
-from typing import List
 from Foedevare import Foedevare
 
 
 def hent_tabel():
 	return read_excel("Frida.xlsx", sheet_id=3)
-
-def tabel_til_liste(tabel) -> List[dict]:
-	result = []
-	for row in tabel.iter_rows(named=True):
-		result.append(row)
-	return result
 
 def tabel_til_dict(tabel) -> dict:
 	result = {}
