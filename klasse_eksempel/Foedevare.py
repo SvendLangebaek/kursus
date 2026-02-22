@@ -10,7 +10,7 @@ class Foedevare:
 		self.tilfoej_parameter(foedevare)
 
 	def tilfoej_parameter(self, foedevare):
-		self._parameters[foedevare['ParameterID']] = FoedevareParameter.fra_dict(foedevare)
+		self._parameters[foedevare['FødevareNavn']] = FoedevareParameter.fra_dict(foedevare)
 
 	def __repr__(self):
 		indre = ''

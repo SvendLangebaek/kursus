@@ -16,7 +16,7 @@ def tabel_til_liste(tabel) -> List[dict]:
 def tabel_til_dict(tabel) -> dict:
 	result = {}
 	for row in tabel.iter_rows(named=True):
-		food_id = row['FoodID']
+		food_id = row['FødevareNavn']
 		if result.get(food_id):
 			result[food_id].tilfoej_parameter(row)
 		else:
