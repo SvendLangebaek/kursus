@@ -31,17 +31,9 @@ def dict_til_json(liste):
 
 	return json.dumps(liste, cls=JsonEncoder)
 
-def liste_til_eget_format(liste: List[dict]):
-	indre_skabelon = '''
-	{dansk:<40} {engelsk:<40}
-	'''
-	ydre_skabelon = '''
-	-------------------------------------------------------------
-	{indre}
-	-------------------------------------------------------------
-	'''
-	indre = ""
-	for row in liste:
-		indre += indre_skabelon.format(dansk=row['FødevareNavn'], engelsk=row['FoodName'])
-	total = ydre_skabelon.format(indre=indre)
-	return total
+def dict_til_eget_format(food_dict: dict):
+	foedevare_liste = []
+	for key in food_dict:
+		foedevare_liste.append(str(food_dict[key]))
+	print(foedevare_liste)
+	return '\n'.join(foedevare_liste)
