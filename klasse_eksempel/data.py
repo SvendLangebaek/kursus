@@ -16,12 +16,13 @@ def tabel_til_dict(tabel) -> dict:
 			result[food_id] = Foedevare(row)
 	return result
 
-def filtrer_liste_paa_navn(liste: List[dict], query: str) -> List[dict]:
-	result = []
-	for row in liste:
-		if query in row['FødevareNavn']:
-			result.append(row)
-	return result
+def filtrer_dict_paa_navn(food_dict: dict, query: str):
+	doomed_keys = []
+	for key in food_dict.keys():
+		if query not in key:
+			doomed_keys.append(key)
+	for key in doomed_keys:
+		del food_dict[key]
 
 def filtrer_liste_paa_parameter_id(liste: List[dict], parameter_id: int) -> List[dict]:
 	result = []
