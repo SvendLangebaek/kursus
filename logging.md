@@ -12,6 +12,7 @@ logging.CRITICAL</br>
 ### Opret en metode kaldet setup_logging eller lignende
 ### I setup_logging opret et objekt af typen RotatingFileHandler</br>Eller vælg en handler fra listen https://docs.python.org/3.11/library/logging.handlers.html
 ### Opret et object af typen logging.Formatter dette objekt initialiseres med en formaterings streng, den kan bl.a. indeholde %(asctime)s, %(name)s, %(levelname)s og %(message)s.</br>Se mere på https://docs.python.org/3/library/logging.html#formatter-objects
+### Brug metoden setFormatter på handleren til at sætte formatteren på handleren
 ### Hent root logger med metoden logging.getLogger()
 ### Sæt level på root loggeren med metoden setLevel
 ### Tilføj handleren på root loggeren med metoden addHandler
