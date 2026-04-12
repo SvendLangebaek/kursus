@@ -10,7 +10,7 @@
 ### Vi bemærker at pythons indbyggede http.server ikke understøtter alle de metoder vi forventer af et moderne api, se https://restfulapi.net/http-methods/ for en liste af de metoder sådan et api forventes at have
 ### Stop serveren
 ## - Lav en bedre server
-### Indstaller pakken "fastapi[standard]" hvis du bruger uv så er det kommandoen uv add "fastapi[standard]" med pip er det pin install "fastapi[standard]". Eller brug pycharms package install under settings (ctrl-alt-s)
+### Indstaller pakken "fastapi[standard]" hvis du bruger uv så er det kommandoen uv add "fastapi[standard]" med pip er det pip install "fastapi[standard]". Eller brug pycharms package install under settings (ctrl-alt-s)
 ### Opret en python fil med kode fastapi's standard eksempel på https://pypi.org/project/fastapi/ (Undgå indtil videre async)
 ### Start serveren med fastapi dev <filnavn>
 ### Test igen i jupyter notebook

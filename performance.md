@@ -1,6 +1,6 @@
 ## Profiling og Performance https://docs.python.org/3/library/profile.html
 ### I python er der indbyggede metoder til at profilere et program</br>Dette bruges hvis man opdager at der er steder i programmet der tager meget lang tid i forhold til hvad de burde
-## 1. Test enkelte metoder denne metode bruges for at afdække hvad der tager lang tid de tager
+## 1. Test enkelte metoder denne metode bruges for at afdække hvad der tager lang tid
 ### I jupyter notebook importer cProfile (eller profile hvis du ikke har cProfile)
 ### En metode testes med cProfile.run metoden.</br> Metoden tager statement argumentet som er en string med den python kode der skal testes</br>Derudover kan man vælge også at bruge sort argumentet der fortæller hvordan resultatet sorteres, f.eks. tottime eller cumtime.</br>Hint pak gerne kode ind i en metode, det gør det nemmere at overskue 
 ### Opgave, brug run metoden til at finde ud af om det er hurtigst at gøre x**2 eller x*x for en række af tal (brug gerne den indbyggede range metode)
